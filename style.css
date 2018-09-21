@@ -4,7 +4,8 @@ header {
   z-index:2;
   display: inline-flex;
   border-bottom: 1px solid black;
-  display: inline-flex;
+  display: inline-flex
+  justify-content: space-between;
 }
 
  .logo{
@@ -22,19 +23,17 @@ header {
 }
 
 nav {
-    width: 150px;
+    width: 400px;
     font-size: 14px;
     font-weight: bold;
     font-family: verdana;
     display: inline-flex;
+    justify-content: space-between;
 }
 
 li {
   list-style: none;
   display: inline-flex;
   color:black;
-}
-
-nav {
-  display: inline;
+  justify-content: flex-end;
 }
