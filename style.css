@@ -3,6 +3,8 @@ header {
   width:100%;
   z-index:2;
   display: inline-flex;
+  border-bottom: 1px solid black;
+  display: inline-flex;
 }
 
  .logo{
@@ -20,16 +22,17 @@ header {
 }
 
 nav {
-    display: inline-block;
-    width: 50px;
+    width: 150px;
     font-size: 14px;
     font-weight: bold;
     font-family: verdana;
-    color:black;
+    display: inline-flex;
 }
 
 li {
   list-style: none;
+  display: inline-flex;
+  color:black;
 }
 
 nav {
