@@ -4,13 +4,15 @@ header {
   z-index:2;
   display: inline-flex;
   border-bottom: 1px solid black;
-  display: inline-flex
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: verdana;
   justify-content: space-between;
 }
 
  .logo{
     color: MediumAquamarine;
-    width: 150px;
     font-size: 14px;
     font-weight: bold;
     font-family: verdana;
@@ -20,20 +22,64 @@ header {
 
 #space {
   padding-left: 10px;
+  border-bottom: none;
 }
 
 nav {
-    width: 400px;
     font-size: 14px;
     font-weight: bold;
     font-family: verdana;
     display: inline-flex;
-    justify-content: space-between;
+    padding-right: 30px;
+    /*justify-content: space-between;*/
 }
 
 li {
   list-style: none;
-  display: inline-flex;
+  display: inline-block;
   color:black;
   justify-content: flex-end;
+}
+
+a {
+  color:black;
+}
+
+main {
+  position:relative;
+  top: 100px;
+  display:flex;
+  width:100%;
+  border: 1px solid black;
+  font-family: "Times New Roman" serif;
+}
+
+.container {
+  /*display:inline-flex;*/
+  justify-content: space-around;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 15px;
+
+p {
+  border-bottom: 1px solid  black;
+}
+
+.col1{
+  flex-grow: 3;
+  flex-basis: 300px;
+}
+
+.col2{
+  flex-grow: 2;
+  flex-basis: 200px;
+}
+
+.col3{
+  flex-grow: 1;
+  flex-basis: 150px;
+}
+
+.box  {
+  border: 1px solid black;
 }
