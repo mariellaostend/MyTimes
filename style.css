@@ -12,15 +12,15 @@ header {
     font-weight: bold;
     font-family: verdana;
     display: inline-flex;
-
     width:200px;
-
-#space {
-  padding-left: 20px;
 }
 
-nav li {
-    display: inline-flex;
+#space {
+  padding-left: 10px;
+}
+
+nav {
+    display: inline-block;
     width: 50px;
     font-size: 14px;
     font-weight: bold;
@@ -29,7 +29,7 @@ nav li {
 }
 
 li {
-  display: inline;
+  list-style: none;
 }
 
 nav {
