@@ -69,25 +69,25 @@ main {
 }
 
 .large {
+  display:flex;
   flex-grow: 3;
   width: 630px;
   border: 1px solid black;
-  justify-content: space-between;
 }
 
 .medium {
+  display:flex;
   flex-grow: 2;
   width: 300px;
   border: 1px solid black;
-  justify-content: space-between;
 }
 
 .small {
+  display:flex;
   flex-grow: 1;
   width: 240px;
   border: 1px solid black;
- justify-content: space-between;
-}
+ }
 
 .box  {
   border: 1px solid black;
