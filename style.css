@@ -1,10 +1,10 @@
 
-/* main body */
+/* header  */
 header {
   position:fixed;
   width:100%;
   z-index:2;
-  display: inline-flex;
+  /*display: inline-flex;*/
   border-bottom: 1px solid black;
   display: inline-flex;
   font-size: 14px;
@@ -50,43 +50,51 @@ a {
 
 /* main body */
 main {
-  display: flex;
+  /*display: inline-flex;*/
   position: fixed;
   top: 100px;
   width:100%;
   border: 1px solid black;
-  font-family: "Times New Roman" serif;
+  font-family: "Georgia", serif;
   overflow: scroll;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .column {
-  display:inline-inline-flex;
+  display:inline-flex;
   justify-content: space-between;
   padding: 5px;
   border: 1px solid black;
   margin: 30px;
 }
 
-.column .large {
+.large {
   flex-grow: 3;
   width: 630px;
+  border: 1px solid black;
+  justify-content: space-between;
 }
 
-.column .medium {
+.medium {
   flex-grow: 2;
   width: 300px;
+  border: 1px solid black;
+  justify-content: space-between;
 }
 
-.column .small {
+.small {
   flex-grow: 1;
   width: 240px;
+  border: 1px solid black;
+ justify-content: space-between;
 }
 
 .box  {
   border: 1px solid black;
+  /*margin-right: 25px*/
 }
 
 .picture {
   border: 1px solid black;
+  /*margin-right: 25px*/
 }
