@@ -68,21 +68,21 @@ main {
   margin: 30px;
 }
 
-.large {
+.column.large {
   display:flex;
   flex-grow: 3;
   width: 630px;
   border: 1px solid black;
 }
 
-.medium {
+.column.medium {
   display:flex;
   flex-grow: 2;
   width: 300px;
   border: 1px solid black;
 }
 
-.small {
+.column.small {
   display:flex;
   flex-grow: 1;
   width: 240px;
