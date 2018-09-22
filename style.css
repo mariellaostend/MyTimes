@@ -1,3 +1,5 @@
+
+/* main body */
 header {
   position:fixed;
   width:100%;
@@ -45,41 +47,46 @@ a {
   color:black;
 }
 
+
+/* main body */
 main {
-  position:relative;
+  display: flex;
+  position: fixed;
   top: 100px;
-  display:flex;
   width:100%;
   border: 1px solid black;
   font-family: "Times New Roman" serif;
+  overflow: scroll;
+  justify-content: space-between;
 }
 
-.container {
-  /*display:inline-flex;*/
-  justify-content: space-around;
+.column {
+  display:inline-inline-flex;
+  justify-content: space-between;
   padding: 5px;
   border: 1px solid black;
-  margin: 15px;
-
-p {
-  border-bottom: 1px solid  black;
+  margin: 30px;
 }
 
-.col1{
+.column .large {
   flex-grow: 3;
-  flex-basis: 300px;
+  width: 630px;
 }
 
-.col2{
+.column .medium {
   flex-grow: 2;
-  flex-basis: 200px;
+  width: 300px;
 }
 
-.col3{
+.column .small {
   flex-grow: 1;
-  flex-basis: 150px;
+  width: 240px;
 }
 
 .box  {
+  border: 1px solid black;
+}
+
+.picture {
   border: 1px solid black;
 }
