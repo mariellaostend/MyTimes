@@ -50,41 +50,34 @@ a {
 
 /* main body */
 main {
-  /*display: inline-flex;*/
+  display: flex;
+  flex-direction: row;
   position: fixed;
   top: 100px;
   width:100%;
   border: 1px solid black;
   font-family: "Georgia", serif;
   overflow: scroll;
-  /*justify-content: space-between;*/
-}
-
-.column {
-  display:inline-flex;
   justify-content: space-between;
-  padding: 5px;
-  border: 1px solid black;
-  margin: 30px;
 }
 
-.column.large {
+.large {
   display:flex;
-  flex-grow: 3;
+  flex-direction: column;
   width: 630px;
   border: 1px solid black;
 }
 
-.column.medium {
+.medium {
   display:flex;
-  flex-grow: 2;
+  flex-direction: column;
   width: 300px;
   border: 1px solid black;
 }
 
-.column.small {
+.small {
   display:flex;
-  flex-grow: 1;
+  flex-direction: column;
   width: 240px;
   border: 1px solid black;
  }
