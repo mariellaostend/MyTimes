@@ -12,6 +12,7 @@ header {
   font-weight: bold;
   font-family: verdana;
   justify-content: space-between;
+  background-color: white;
 }
 
  .logo{
@@ -53,6 +54,7 @@ a {
   display: flex;
   padding-top: 75px;
   justify-content: space-between;
+
 }
 
 .columns .large {
@@ -90,6 +92,15 @@ a {
   height: 200px;
   text-align: center;
   padding-top: 60px;
+}
+
+.columns .large .splitcolumns {
+  display: flex;
+}
+
+.columns .large .splitcolumns .left, .columns .large .splitcolumns.right{
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .earth h2{
