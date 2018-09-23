@@ -48,83 +48,82 @@ a {
   color:black;
 }
 
-
 /* main body */
-main {
+.columns {
   display: flex;
-  flex-direction: row;
-  position: fixed;
-  top: 100px;
-  width:100%;
-  border: 1px solid black;
-  font-family: "Georgia", serif;
-  overflow: scroll;
+  padding-top: 75px;
   justify-content: space-between;
 }
 
-.large {
+.columns .large {
   display:flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   width: 630px;
   border: 1px solid black;
 }
 
-.medium {
+.columns .medium {
   display:flex;
   flex-direction: column;
   width: 300px;
   border: 1px solid black;
 }
 
-.small {
+.columns .small {
   display:flex;
   flex-direction: column;
   width: 240px;
   border: 1px solid black;
  }
 
-.box  {
+.orca, .burger, .fbi, .mother, .topics{
   border: 1px solid black;
-  /*margin-right: 25px*/
 }
 
-.picture1 {
-  display:flex;
+.mother h2 {
   border: 1px solid black;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 40px;
+  font-weight: bold;
   color: white;
+  height: 200px;
+  text-align: center;
+  padding-top: 60px;
 }
 
-.picture2 {
-  display:flex;
+.earth h2{
   border: 1px solid black;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 30px;
+  font-weight: bold;
   color: white;
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
 }
 
-.picture3 {
+.research h2 {
   display:flex;
   border: 1px solid black;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 30px;
+  font-weight: bold;
   color: white;
+  height: 200px;
 }
 
-.picture4 {
+.cats h2{
   display:flex;
   border: 1px solid black;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 30px;
+  font-weight: bold;
   color: white;
-}
-
-li {
-  list-style: none;
-}
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
 }
